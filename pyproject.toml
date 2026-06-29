@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-example-file-handling"
 version = "1.0.0"
-description = "Rotinas de leitura e escrita de arquivos com validacao de caminho."
+description = "File reading and writemg routines with path validation."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -29,4 +29,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=src --cov-rebyt=term-missing --cov-fail-under=100"
